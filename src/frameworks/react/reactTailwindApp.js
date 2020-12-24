@@ -61,7 +61,6 @@ exports.create = async (name, directory) => {
   await createReactApp(name);
   await installDependencies(config.dependencies, config.devDependencies);
   await updatePackageScripts(config.scripts);
-  await addTailwindConfigFile();
   console.log('react', name, directory);
   return true;
 };
