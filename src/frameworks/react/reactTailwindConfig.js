@@ -1,5 +1,7 @@
 const cracoConfig = require('./templates/cracoConfigTemplate');
 const tailwindConfig = require('./templates/tailwindConfigTemplate');
+const tailwindCss = require('./templates/tailwindCssTemplate');
+const appTemplate = require('./templates/appTemplate');
 
 module.exports = {
   dependencies: [],
@@ -18,5 +20,7 @@ module.exports = {
   templates: [
     { path: './craco.config.js', file: cracoConfig },
     { path: './tailwind.config.js', file: tailwindConfig },
+    { path: './src/index.css', file: tailwindCss },
+    { path: './src/App.js', file: appTemplate },
   ],
 };

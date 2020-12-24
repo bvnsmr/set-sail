@@ -18,5 +18,8 @@
     "autoprefixer": "9",
     "postcss": "7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+  },
+  "bin": {
+    "set-sail": "./src/index.js"
   }
 }

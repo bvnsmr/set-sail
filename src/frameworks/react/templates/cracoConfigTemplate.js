@@ -1,5 +1,4 @@
-module.exports = `
-module.exports = {
+module.exports = `module.exports = {
     style: {
       postcss: {
         plugins: [require('tailwindcss'), require('autoprefixer')],

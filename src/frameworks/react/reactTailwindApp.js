@@ -57,10 +57,20 @@ const updatePackageScripts = async (scripts) => {
   });
 };
 
+const addTemplates = (templates) => {
+  return new Promise((resolve) => {
+    templates.forEach((template) => {
+      fse.outputFileSync(template.path, template.file);
+    });
+
+    resolve();
+  });
+};
+
 exports.create = async (name, directory) => {
   await createReactApp(name);
   await installDependencies(config.dependencies, config.devDependencies);
   await updatePackageScripts(config.scripts);
-  console.log('react', name, directory);
+  await addTemplates(config.templates);
   return true;
 };

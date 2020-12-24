@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const inquirer = require('inquirer');
 
 const frameworksList = require('./frameworks/frameworksList').frameworksList;
