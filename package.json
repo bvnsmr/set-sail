@@ -1,6 +1,10 @@
 {
-  "name": "create-tailwind-app",
-  "version": "0.0.1",
+  "name": "set-sail",
+  "version": "0.1.0",
+  "description": "A tool for quickly bootstrapping Tailwind CSS projects in different frameworks",
+  "repository": "https://github.com/bvnsmr/set-sail.git",
+  "homepage": "https://github.com/bvnsmr/set-sail.git",
+  "issues": "https://github.com/bvnsmr/set-sail/issues",
   "main": "src/index.js",
   "license": "MIT",
   "scripts": {
