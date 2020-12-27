@@ -19,6 +19,9 @@ const installDependencies = async (dependencies, devDependencies) => {
 
 const updatePackageScripts = async (scripts) => {
   console.log('Updating package scripts...');
+  if (scripts.length < 1) {
+    return true;
+  }
   return new Promise((resolve) => {
     const basePackage = JSON.parse(fse.readFileSync('package.json'));
 

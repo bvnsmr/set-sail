@@ -3,6 +3,7 @@ A tool for quickly bootstrapping Tailwind CSS projects with different frameworks
 
 Supported frameworks:
  - React (using [create-react-app](https://github.com/facebook/create-react-app))
+ - Next.js (using [create-next-app](https://nextjs.org/docs/api-reference/create-next-app))
 
 [View the tailwind docs here](https://tailwindcss.com/docs)
 
