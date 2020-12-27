@@ -1,6 +1,6 @@
 {
   "name": "set-sail",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "A tool for quickly bootstrapping Tailwind CSS projects in different frameworks",
   "repository": "https://github.com/bvnsmr/set-sail.git",
   "homepage": "https://github.com/bvnsmr/set-sail.git",
