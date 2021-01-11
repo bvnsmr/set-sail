@@ -23,6 +23,7 @@
     "postcss": "7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   },
+  "keywords": ["tailwindcss", "react", "next"],
   "bin": {
     "set-sail": "./src/index.js"
   }
