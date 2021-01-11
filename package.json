@@ -1,6 +1,6 @@
 {
   "name": "set-sail",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A tool for quickly bootstrapping Tailwind CSS projects in different frameworks",
   "repository": "https://github.com/bvnsmr/set-sail.git",
   "homepage": "https://github.com/bvnsmr/set-sail.git",
@@ -23,6 +23,11 @@
     "postcss": "7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   },
+  "keywords": [
+    "tailwindcss",
+    "react",
+    "next"
+  ],
   "bin": {
     "set-sail": "./src/index.js"
   }
