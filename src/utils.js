@@ -4,14 +4,14 @@ const fse = require('fs-extra');
 const installDependencies = async (dependencies, devDependencies) => {
   await new Promise((resolve) => {
     console.log('Installing tailwind dependencies...');
-    shell.exec(`yarn add ${dependencies.join(' ')}`, () => {
+    shell.exec(`npm install ${dependencies.join(' ')} --save`, () => {
       resolve();
     });
   });
 
   await new Promise((resolve) => {
     console.log('Installing tailwind dev dependencies...');
-    shell.exec(`yarn add --dev ${devDependencies.join(' ')}`, () => {
+    shell.exec(`npm install ${devDependencies.join(' ')}  --save-dev`, () => {
       resolve();
     });
   });
@@ -39,7 +39,7 @@ const updatePackageScripts = async (scripts) => {
 
         console.log('Scripts updated');
         resolve();
-      },
+      }
     );
   });
 };
